@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: Arial, sans-serif;
+    /* margin: 0;
+    padding: 0; */
+    background-color: #f9f9f9;
+}
+
+header {
+    background: #ffffff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+.head{
+    display: flex;
+    gap:70%;
+    align-items: center;
+}
+.logo{
+    display: flex;
+}
+.v{
+    color:greenyellow;
+}
+nav{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px; 
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.links{
+    display: flex;
+    gap: 15px;
+}
+.links a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.icon{
+    height: 10px;
+    width: 10px;
+}
+.line{
+    height:10px;
+    width:0;
+    border: 2px solid rgba(128, 128, 128, 0.452);
+}
+nav button {
+     padding: 8px 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.hero {
+    height:415px;
+    background: #e0e0e0;
+    padding: 50px;
+    gap:20%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.hero .highlight {
+    color: green;
+}
+
+.features {
+    text-align: center;
+    padding: 30px;
+}
+.featuress {
+    display: flex;
+    text-align: center;
+    padding: 30px;
+}
+.learn{
+    display: flex;
+    padding: 8px 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.learn svg{
+    height:15px;
+    width: 15px;
+}
+.feature {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+}
+
+.feature h4 {
+    color: #333;
+}
+
+.feature a {
+    text-decoration: none;
+    color: green;
+}
+
+.featured-work {
+    text-align: center;
+    padding: 30px;
+}
+
+.work-item {
+    display: inline-block;
+    width: 20%;
+    height: 150px;
+    background: #ccc;
+    margin: 10px;
+}
+.work-item img{
+    height:150px
+    width:20%;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.clients {
+    margin: 20px 0;
+}
+
+.client-logo {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    background: #777; /* Placeholder for client logos */
+    margin: 0 10px;
+}
+
+.newsletter {
+    margin: 20px 0;
+}
+
+.newsletter input {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.newsletter button {
+    padding: 10px;
+}
